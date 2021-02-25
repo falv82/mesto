@@ -1,0 +1,6 @@
+.element__heart_term_active {
+}
+
+.element__heart_term_active:active {
+    background-color: #000000;
+}
