@@ -12,9 +12,4 @@
 [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 
 # Примененные технологии:
-При разработке страницы применялись:
-1. Flexbox-верстка;
-2. Grid Layout;
-3. Медиазапросы
-4. DOM
 
