@@ -6,6 +6,12 @@
     left: 0;
     bottom: 0;
     right: 0;
+<<<<<<< HEAD
     align-items: center;
     display: none;
+=======
+    /*display: flex;*/
+    align-items: center;
+    display: none
+>>>>>>> main
 }
