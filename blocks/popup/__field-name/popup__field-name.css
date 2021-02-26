@@ -1,0 +1,17 @@
+.popup__field-name {
+    width: 358px;
+    height: 27px;
+    margin: 0 auto 30px auto;
+    padding: 0;
+    text-align: start;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+@media(max-width: 425px) {
+    .popup__field-name {
+        width: 238px;
+    }
+}
