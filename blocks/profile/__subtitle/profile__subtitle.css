@@ -1,6 +1,5 @@
 .profile__subtitle {    
     grid-area: item__subtitle;
-    margin: 0;
     max-width: 336px;
     margin: 16px 0 25px 30px;
     font-weight: 400;
