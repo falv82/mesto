@@ -7,77 +7,75 @@
     <title>Mesto</title>
 </head>
 <body class="body">
-    <div class="popup">
-        <div class="popup__container">
-            <div class="popup__content">
-                <h2 class="popup__title">Редактировать профиль</h2>
-                <input type="text" class="popup__field-name">
-                <input type="text" class="popup__field-achievement">
-                <button type="button" class="popup__savebutton">Сохранить</button>
-            </div>
-            <button type="button" class="popup__close button"></button>
-        </div>
-    </div>
     <div class="page">
         <header class="header">
             <img src="images/Vector_header.svg" alt="Логотип Mesto" class="header__logo">
         </header>
         <main class="content">
             <section class="profile">
-                <img src="images/image_avatar.jpg" alt="Жак Иф Кусто" class="profile__avatar">
+                <img src="images/image_avatar.jpg" alt="Аватар" class="profile__avatar">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__edit-button button"></button>
+                <button aria-label="редактировать" type="button" class="profile__edit-button button"></button>
                 <h2 class="profile__subtitle">Исследователь океана</h2>                     
-                <button class="profile__add-button button" type="button"></button>   
+                <button aria-label="добавить" class="profile__add-button button" type="button"></button>   
             </section>
             <section class="elements">
                 <article class="element">
                     <img src="images/Altay.jpg" alt="Алтай" class="element__image">
                     <div class="element__group">
                         <h3 class="element__title">Алтай</h3>
-                        <img src="images/Vector_heart.svg" alt="Сердце" class="element__heart element__heart_term_active button">
+                        <button aria-label="лайк" type="button" class="element__heart element__heart_term_active button">
                     </div>
                 </article>
                 <article class="element">
                     <img src="images/Baikal.jpg" alt="Байкал" class="element__image">
                     <div class="element__group">
                         <h3 class="element__title">Байкал</h3>
-                        <img src="images/Vector_heart.svg" alt="Сердце" class="element__heart element__heart_term_active button">
+                        <button aria-label="лайк" type="button" class="element__heart element__heart_term_active button">
                     </div>
                 </article>
                 <article class="element">
                     <img src="images/dombai.jpg" alt="Домбай" class="element__image">
                     <div class="element__group">
                         <h3 class="element__title">Домбай</h3>
-                        <img src="images/Vector_heart.svg" alt="Сердце" class="element__heart element__heart_term_active button">
+                        <button aria-label="лайк" type="button" class="element__heart element__heart_term_active button">
                     </div>
                 </article>
                 <article class="element">
                     <img src="images/karachaevsk.jpg" alt="Карачаевск" class="element__image">
                     <div class="element__group">
                         <h3 class="element__title">Карачаевск</h3>
-                        <img src="images/Vector_heart.svg" alt="Сердце" class="element__heart element__heart_term_active button">
+                        <button aria-label="лайк" type="button" class="element__heart element__heart_term_active button">
                     </div>
                 </article>
                 <article class="element">
                     <img src="images/elbrus.jpg" alt="Эльбрус" class="element__image">
                     <div class="element__group">
                         <h3 class="element__title">Эльбрус</h3>
-                        <img src="images/Vector_heart.svg" alt="Сердце" class="element__heart element__heart_term_active button">
+                        <button aria-label="лайк" type="button" class="element__heart element__heart_term_active button">
                     </div>
                 </article>
                 <article class="element">
                     <img src="images/Roza-hutor.jpg" alt="Роза Хутор" class="element__image">
                     <div class="element__group">
                         <h3 class="element__title">Роза Хутор</h3>
-                        <img src="images/Vector_heart.svg" alt="Сердце" class="element__heart element__heart_term_active button">
+                        <button aria-label="лайк" type="button" class="element__heart element__heart_term_active button">
                     </div>
                 </article>
             </section>
-            <section class="footer">
-                <h4 class="footer__title">&#169; 2021 Mesto Russia</h4>
-            </section>
         </main>
+        <footer class="footer">
+            <div class="footer__title">&#169; 2021 Mesto Russia</div>
+        </footer>
+        <div class="popup">
+            <form method="POST" name="Profil" class="popup__container">
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <input type="text" name="name" class="popup__field popup__field_type_name">
+                <input type="text" name="achievement" class="popup__field popup__field_type_achievement">
+                <button  type="submit" class="popup__save-button">Сохранить</button>
+                <button aria-label="закрыть" type="button" class="popup__close button"></button>
+            </form>
+        </div>
     </div>
     <script src="./scripts/popup.js"></script>    
 </body>

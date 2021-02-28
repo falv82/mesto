@@ -7,6 +7,9 @@
     box-shadow: rgba(0, 0, 0, 0.15);
     position: relative;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media(max-width: 425px) {
