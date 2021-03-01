@@ -1,10 +1,13 @@
 .profile__subtitle {    
     grid-area: item__subtitle;
     max-width: 336px;
-    margin: 16px 0 25px 30px;
+    margin: 11px 0 25px 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 @media(max-width: 900px) {
@@ -13,10 +16,10 @@
     }
 }
 
-@media(max-width: 620px) {
+@media(max-width: 680px) {
     .profile__subtitle {
         max-width: 282px;
-        margin: 14px auto 0 auto;
+        margin: 12px auto 0 auto;
         font-size: 14px;
     }
 }

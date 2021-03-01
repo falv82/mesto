@@ -24,8 +24,8 @@
         background-size: 7.5px;
         width: 18px;
         height: 18px;
-        margin-top: 0;
+        margin-bottom: 5px;
         align-self:flex-end;
-        justify-self: flex-start;
+        justify-self: start;
     }
 }

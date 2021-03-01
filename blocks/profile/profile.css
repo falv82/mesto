@@ -30,7 +30,12 @@
         "item__title button_type_edit"
         "item__subtitle item__subtitle"
         "button_type_add button_type_add";
-        justify-items: center;
         margin: 40px auto 36px auto;
+    }
+}
+
+@media(max-width: 320px) {
+    .profile {
+        max-width: 282px;
     }
 }
